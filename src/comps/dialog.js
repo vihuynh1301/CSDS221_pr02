@@ -133,6 +133,7 @@ export default function ResponsiveDialog(props) {
                 <br /><br />
                 {type === "add" ? 
                 <TextField
+                    fullWidth
                     error={!isValidTitle}
                     id="title"
                     label="Title"
@@ -144,6 +145,7 @@ export default function ResponsiveDialog(props) {
                 <br /><br /><br />
 
                 <TextField
+                    fullWidth
                     error={!isValidDescription}
                     id="description"
                     label="Description"
