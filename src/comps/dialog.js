@@ -1,6 +1,6 @@
-//imports
+//import
 //react
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 //materials
 import Button from '@mui/material/Button';
 import DialogActions from '@mui/material/DialogActions';
